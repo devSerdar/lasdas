@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.body {
+  background-image: linear-gradient(
+    90deg,
+    #242424 0.15%,
+    #111111 0.15%,
+    #111111 50%,
+    #242424 50%,
+    #242424 50.15%,
+    #111111 50.15%,
+    #111111 100%
+  );
+  background-size: 652px 652px;
+  background-position-x: 130px;
+}
+
+footer {
+  background: #111111;
+  border-top: 1px solid #222222;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.spin {
+  animation: spin 10s linear infinite;
+}
+
+.tick {
+  height: 45px;
+  border-radius: 45px;
+  outline: none;
+  background: transparent;
+  padding: 0 30px;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.card-face {
+  transform: translateZ(40px) scale(0.94);
+}
+
+.input {
+  font-size: 13px;
+  margin-right: 40px;
+  line-height: 18px;
+  color: #707070;
+  background: #222222;
+  box-shadow: none;
+  outline: none;
+  padding: 16px 30px 15px;
+  border-radius: 0;
+  transition: all 0.3s ease;
+  box-sizing: border-box !important;
+  width: 100%;
+  display: block;
+  height: 49px;
+  border: 1px solid #222222;
+  border-radius: 25px;
+}
+
+.active {
+  color: rgb(161 98 7);
+}

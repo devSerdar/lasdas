@@ -1,0 +1,28 @@
+{
+  "name": "newseta",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "autoprefixer": "10.4.14",
+    "emailjs-com": "^3.2.0",
+    "eslint": "8.43.0",
+    "eslint-config-next": "13.4.7",
+    "hamburger-react": "^2.5.0",
+    "next": "13.4.7",
+    "postcss": "8.4.24",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-flip-toolkit": "^7.1.0",
+    "react-flippy": "^1.1.0",
+    "react-scroll": "^1.8.9",
+    "react-spring": "^9.7.1",
+    "tailwindcss": "3.3.2"
+  }
+}
